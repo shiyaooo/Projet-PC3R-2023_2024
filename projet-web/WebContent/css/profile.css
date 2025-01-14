@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #d9d0d2;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+	display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+header button{
+	width: 120px; /* 修改按钮宽度 */
+    height: 40px; /* 修改按钮高度 */
+}
+
+header button:hover{
+	border-color: white;
+	border-radius: 5px;
+}
+
+.navbar {
+	display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-top:30px;
+    margin-right: 100px; /* 调整导航栏顶部的上边距 */
+}
+.logo-hd img {
+    width: 150px;
+    height: 100px;
+    margin-right: -30px; /* 调整导航栏顶部的上边距 */
+}
+.isconnect{
+	margin-top: 31px;
+	display: flex;
+}
+
+.navbar button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 120px; /* 修改按钮宽度 */
+    height: 40px; /* 修改按钮高度 */
+}
+.navbar button.connexion {
+  	background-color: #007bff; /* 设置“Connexion”按钮的背景颜色 */
+    color: white;
+    text-align: center; /* 将按钮文本居中 */
+}
+.navbar button.connexion:hover {
+    background-color: #0056b3;
+}
+.navbar button.inscrire{
+	border: 1px solid #ccc;
+    background-color: white;
+    color: #007bff ;
+}
+
+.navbar button.inscrire:hover {
+    border: 1px solid black;
+    
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.search-container input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 500px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-left: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px ;
+    cursor: pointer;
+}
+.search-container button:hover {
+    background-color: #4cae4c;
+}
+
+.page::-webkit-scrollbar {
+    height: 8px;
+}
+
+.page::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.page::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.inscript {
+	background-color: #fff;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	width: 300px;
+	
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+input[type="submit"]:hover {
+	background-color: #1f80c7;
+}
+
+

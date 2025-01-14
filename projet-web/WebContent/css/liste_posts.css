@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+:root{
+	--primary-color:#808080;
+	--sencondary-color:#d9d0d2;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--sencondary-color);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+	display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+header button{
+	width: 120px; /* 修改按钮宽度 */
+    height: 40px; /* 修改按钮高度 */
+}
+
+header button:hover{
+	border-color: white;
+	border-radius: 5px;
+}
+
+.main h1{
+	font-size:15px;
+	color: white;
+	padding-left:1rem;	
+}
+
+main::-webkit-scrollbar {
+    height: 8px;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+main::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}

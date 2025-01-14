@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+:root{
+	--primary-color:#808080;
+	--sencondary-color:#d9d0d2;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--sencondary-color);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+	display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+header button{
+	width: 120px; /* 修改按钮宽度 */
+    height: 40px; /* 修改按钮高度 */
+}
+
+header button:hover{
+	border-color: white;
+	border-radius: 5px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.movie-poster {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+}
+.movie-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.movie-rating {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.movie-summary {
+    margin-bottom: 20px;
+}
+.movie-director {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.movie-actors {
+    margin-bottom: 20px;
+}
+.movie-actions {
+    margin-bottom: 20px;
+}
+
+.login-message {
+    color: red;
+    margin-bottom: 20px;
+}
+.critiques {
+    margin-bottom: 20px;
+}
+.critique {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+}
+.critique img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.critique-content {
+    flex-grow: 1;
+}
+.critique-username {
+    font-weight: bold;
+}
+.critique-date {
+    font-size: 12px;
+    color: #666;
+    margin-bottom: 5px;
+}
+.critique-text {
+    margin-bottom: 5px;
+}
+.critique-actions {
+    text-align: right;
+    
+}
+.critique-actions button {
+    background: #f44;
+    color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    
+}
+
+.delete-button{
+    margin-right: 1em; 
+}
+.rating, .comment {
+    display: none;
+    margin-bottom: 20px;
+}
+.rating input, .comment textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.rating button, .comment button {
+    padding: 10px 20px;
+    cursor: pointer;
+}

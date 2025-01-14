@@ -1,0 +1,20 @@
+mongodb+srv://dysm1869:PYeYBFWVX677vQgM@cluster0.thzsihz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+
+
+mongodb+srv://dysm1869:PYeYBFWVX677vQgM@cluster0.thzsihz.mongodb.net/
+
+dysm1869  PYeYBFWVX677vQgM
+
+Clé d'API
+a5362b38ec62c678acd4737ef5ad21dc
+
+
+Jeton d'accès en lecture à l'API
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNTM2MmIzOGVjNjJjNjc4YWNkNDczN2VmNWFkMjFkYyIsInN1YiI6IjY2Mzc5M2JlOTU5MGUzMDEyY2JjYmFlMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0G_ypENYXdonzieTuQVSjOGlOMYpsJhEui8lFdCzQfw
+
+
+Authentication
+
+eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJhNTM2MmIzOGVjNjJjNjc4YWNkNDczN2VmNWFkMjFkYyIsInN1YiI6IjY2Mzc5M2JlOTU5MGUzMDEyY2JjYmFlMCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.0G_ypENYXdonzieTuQVSjOGlOMYpsJhEui8lFdCzQfw
+
+a5362b38ec62c678acd4737ef5ad21dc

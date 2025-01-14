@@ -1,0 +1,78 @@
+body {
+	font-family: Arial, sans-serif;
+	background-image: url('.././img/collage-fond-film.jpg');
+	background-size: 100vw 100vh;
+}
+
+.signin_c {
+	display: grid;
+	justify-content: center;
+	justify-items: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.signin_page {
+	color: grey;
+	display: grid;
+	font-family: small-caps;
+	font-size: 5rem;
+	justify-items: center;
+	align-items: center;
+}
+
+h2 {
+	margin-top: -50px
+}
+
+.inscript {
+	background-color: #fff;
+	background-color: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	width: 300px;
+	margin-top: -50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+form {
+	
+}
+
+input[type="text"], input[type="password"], input[type="submit"] {
+	width: 100%;
+	padding: 10px;
+	margin: 5px 0;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	box-sizing: border-box;
+}
+
+input[type="submit"] {
+	background-color: #387bad;
+	color: white;
+	cursor: pointer;
+	border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+	background-color: #1f80c7;
+}
+
+.deja_inscrit {
+	font-size: 12px;
+}
+
+p {
+	text-align: center;
+}
+
+p a {
+	color: #007bff;
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}

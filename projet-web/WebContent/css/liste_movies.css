@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+:root{
+	--primary-color:#808080;
+	--sencondary-color:#d9d0d2;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--sencondary-color);
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+header {
+	display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+header button{
+	width: 120px; /* 修改按钮宽度 */
+    height: 40px; /* 修改按钮高度 */
+}
+
+header button:hover{
+	border-color: white;
+	border-radius: 5px;
+}
+
+.main h1{
+	font-size:15px;
+	color: white;
+	padding-left:1rem;	
+}
+
+main::-webkit-scrollbar {
+    height: 8px;
+}
+
+main::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+main::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.movies-container {
+	display:flex;
+	flex-wrap:wrap;
+    justify-content: center;
+}
+
+.movie{
+	width: 300px;
+	margin: 1rem;
+	border-radius: 3px;
+	box-shadow: 0.2px 4px 5px rgba(0,0,0,0,1);
+	background-color: var(--primary-color);
+	position:relative;
+	overflow:hidden;
+}
+
+.movie img {
+    width: 100%;
+}
+
+.movie img:hover {
+  transform: scale(1.1); /* 当鼠标悬停时将图片放大 */
+  cursor: pointer; 
+}
+
+.movie_info {
+	color:#eee;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+	padding: 0.5rem 1rem 1rem;
+	letter-spacing: 0.5px;
+}
+
+.movie_info h2{
+    margin-top:0;
+}
+
+.movie_info span{
+    background-color: var(--sencondary-color);
+    padding: 0.25rem 0.5rem;
+    font-weight: bold;
+    color:black;
+}
+
+.movie_overview{
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color: #fff;
+	padding:1rem;
+	max-height:100%;
+	transform:translateY(101%);
+	transition:transform 0.3s ease-in; 
+	font-size:13px;
+}
+
+.movie:hover .movie_overview{
+	transform:translateY(0);
+}

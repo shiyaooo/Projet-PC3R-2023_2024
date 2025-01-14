@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Login Page</title>
+<link rel="stylesheet" href="./css/login.css">
+</head>
+<body class="login_c">
+	<!-- 将 .login 类应用于 body 元素 -->
+	<div>
+		<!-- 将 .login_page 类应用于整个登录页面的 div 元素 -->
+		<h2 class="login_page">Hello, welcome!</h2>
+		<div class="inscript">
+			<form action="login" method="post">
+				<input type="text" id="username" name="username"
+					placeholder="username or email" required><br>
+				<br> <input type="password" id="password" name="password"
+					placeholder="password" required><br>
+				<br> <input type="submit" value="Login">
+			</form>
+			<div class="non_inscrit">
+				<p>
+					Don't have an account? <a href="signup.html">Sign Up</a>
+				</p>
+				<p>
+					Forgot your password? <a href="forgotpassword.html">Forgot
+						Password</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
